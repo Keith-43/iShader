@@ -57,27 +57,27 @@ let package = Package(
         ),
         .target(
             name: "AudioVisualizer",
-            resources: [.process("Shaders")]
+            resources: [.copy("Shaders")]
         ),
         .target(
             name: "ColorEffect",
-            resources: [.process("Shaders")]
+            resources: [.copy("Shaders")]
         ),
         .target(
             name: "DistortionEffect",
-            resources: [.process("Shaders")]
+            resources: [.copy("Shaders")]
         ),
         .target(
             name: "LayerEffect",
-            resources: [.process("Shaders")]
+            resources: [.copy("Shaders")]
         ),
         .target(
             name: "ShaderArt",
-            resources: [.process("2DArt/Shaders")]
+            resources: [.copy("2DArt/Shaders")]
         ),
         .target(
             name: "Transition",
-            resources: [.process("Shaders")]
+            resources: [.copy("Shaders")]
         ),
         
         // test targets

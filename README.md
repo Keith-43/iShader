@@ -1,3 +1,7 @@
+## Notice 
+
+This fork of iShader has been specifically optimized for use with the [Book iShader](https://github.com/Treata11/Book-iShader) sample project. In this version, Metal resources are directly copied and not precompiled or processed like in the original package.
+
 # iShader
 
 iShader is a collection of open-source shaders written in Metal targeted for SwiftUI projects. The package is organized into different submodules based on use cases & functionality of shaders:
